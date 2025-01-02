@@ -3,7 +3,7 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/qycorp/WeWorkFinanceSDK"
+	"github.com/x2nx/WeWorkFinanceSDK"
 	"io/ioutil"
 	"os"
 	"path"

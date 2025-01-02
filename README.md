@@ -7,9 +7,9 @@ https://open.work.weixin.qq.com/api/doc/90000/90135/91774
 ### 使用方式
 
 1、安装 go module
-> go get -u github.com/qycorp/WeWorkFinanceSDK
+> go get -u github.com/x2nx/WeWorkFinanceSDK
 
-2、从 `github.com/qycorp/WeWorkFinanceSDK/lib` 文件夹下复制 `libWeWorkFinanceSdk_C.so` 动态库文件到系统动态链接库默认文件夹下，或者复制到任意文件夹并在当前文件夹下执行 `export LD_LIBRARY_PATH=$(pwd)`命令设置动态链接库检索地址
+2、从 `github.com/x2nx/WeWorkFinanceSDK/lib` 文件夹下复制 `libWeWorkFinanceSdk_C.so` 动态库文件到系统动态链接库默认文件夹下，或者复制到任意文件夹并在当前文件夹下执行 `export LD_LIBRARY_PATH=$(pwd)`命令设置动态链接库检索地址
 
 3、把 `module` 引入到项目中即可使用
 
@@ -21,7 +21,7 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/qycorp/WeWorkFinanceSDK"
+	"github.com/x2nx/WeWorkFinanceSDK"
 	"io/ioutil"
 	"os"
 	"path"
